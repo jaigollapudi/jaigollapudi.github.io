@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags and title -->
+  <meta charset="utf-8">
+  <title>Jai Gollapudi</title>
+
+  <!-- External stylesheets -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!-- Biography section -->
+  <section id="bio">
+    <h1>Jai Gollapudi</h1>
+    <!-- Image container with two images -->
+    <div class="image-container">
+      <img src="images/jai-pic1.png" alt="Jai Gollapudi" class="bio-image pic1">
+      <img src="images/jai-pic2.png" alt="Additional Image of Jai Gollapudi" class="bio-image pic2">
+    </div>
+    <!-- Personal introduction paragraph -->
+    <p>Hey! I'm a third year Data Science + Business Admin (Fintech) student at Northeastern University. I'm passionate about data, with ambitions in pharma or finance. I'm also a former pro tennis player in India, and I aspire to stay connected to the sport in the future.</p>
+  </section>
+
+  <!-- Projects section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <!-- List of projects -->
+    <ul>
+      <li>Fitbit Insights Dashboard</li>
+      <li>Data Science Salary Prediction</li>
+      <li>Filtex - TiE Young Entrepreneurs Pitchfest</li>
+      <li>Eco-Friendly Transportation: ML-Driven Vehicle Emissions Analysis</li>
+      <!-- Additional projects -->
+    </ul>
+  </section>
+
+  <!-- Future Contents section, initially hidden -->
+<section id="futureContents" style="display: none;">
+  <h2>Future Contents</h2>
+  <ul>
+    <li>Blog Posts on Data Science Topics</li>
+    <li>Portfolio of Data Analysis Projects</li>
+    <li>Tennis Training Videos and Tips</li>
+    <!-- Additional future contents -->
+  </ul>
+</section>
+
+  <!-- Button to toggle Future Contents visibility -->
+  <button id="toggleContentsButton" onclick="toggleFutureContents()">Toggle Future Contents Visibility</button>
+
+  <!-- Interest in collaboration section -->
+  <section id="interest">
+    <h2>Join My DS4200 Project Group</h2>
+    <p>If you're interested in collaborating on a Data Science project, let me know!</p>
+    <p class="disclaimer">Note: This form is an example. I already have a group for the DS4200 project.</p>
+    <!-- Button to express interest -->
+    <button id="contactButton">Express Interest</button>
+    <!-- Hidden contact form -->
+    <div id="contactForm" style="display:none;">
+      <!-- Input fields for the form -->
+      <input type="text" id="name" placeholder="Your Name"><br>
+      <input type="email" id="email" placeholder="Your Email"><br>
+      <textarea id="message" placeholder="Your Message"></textarea><br>
+      <!-- Submission button for the form -->
+      <button id="submitButton">Submit</button>
+    </div>
+  </section>
+
+  <!-- Linking JavaScript for interactivity -->
+  <script src="scripts/main.js"></script>
+</body>
+</html>

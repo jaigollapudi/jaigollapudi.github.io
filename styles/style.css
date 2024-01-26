@@ -1,0 +1,82 @@
+/* Global styles */
+html {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: white;
+}
+
+/* Styling for each section */
+section {
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+
+/* Central alignment for headings */
+h1, h2 {
+    text-align: center;
+}
+
+/* Styling for paragraphs and list items */
+p, li {
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* Body styling: centered layout */
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+/* Image container styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+/* Responsive images within the biography section */
+.bio-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Circular images for profile pictures */
+.pic1, .pic2 {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Button styling for interactivity */
+#contactButton, #submitButton, #toggleContentsButton { 
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling for input fields in the contact form */
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+/* Disclaimer text styling */
+.disclaimer {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+}
